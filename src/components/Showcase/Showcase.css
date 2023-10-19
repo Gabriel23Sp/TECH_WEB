@@ -1,0 +1,18 @@
+.showcase{
+  background: url('../../../public/img/tech-red.jpg') no-repeat center/cover;
+}
+
+.showcase .content{
+  width: 40%;
+  padding: 200px 0 0 30px;
+  color: #fff;
+  position: relative;
+}
+
+.block{
+  position: absolute;
+  opacity: .9;
+}
+.upper-message{
+  position: relative;
+}

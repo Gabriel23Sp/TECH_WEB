@@ -1,0 +1,11 @@
+.nav-main ul{
+  display: flex;
+}
+.nav-main ul li{
+  padding: 10px;
+}
+.nav-main ul.nav-menu{
+  flex: 1;
+  margin-left: 20px;
+}
+
