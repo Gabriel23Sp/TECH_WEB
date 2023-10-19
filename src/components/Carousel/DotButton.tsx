@@ -1,4 +1,4 @@
-import { DotButtonPropType } from "@/interfaces/Carousel.props"
+import { DotButtonPropType } from "../../Interfaces/Carousel.props"
 import { FC } from "react"
 
 export const DotButton: FC<DotButtonPropType> = ({

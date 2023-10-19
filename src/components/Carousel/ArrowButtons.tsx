@@ -1,4 +1,4 @@
-import { PrevNextButtonPropType } from "@/interfaces/Carousel.props";
+import { PrevNextButtonPropType } from "../../Interfaces/Carousel.props";
 import { FC } from "react";
 
 export const PrevButton: FC<PrevNextButtonPropType> = ({

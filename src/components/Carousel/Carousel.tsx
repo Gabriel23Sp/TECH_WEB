@@ -1,11 +1,10 @@
 'use client';
 import { FC, useCallback, useEffect, useState } from 'react';
 import useEmblaCarousel, { EmblaCarouselType } from 'embla-carousel-react';
-import Image from 'next/image';
-import imageByIndex from '@/utils/ImageByIndex';
+import imageByIndex from '../../utils/ImageByIndex';
 import { NextButton, PrevButton } from './ArrowButtons';
 import { DotButton } from './DotButton';
-import { CarouselProps } from '@/interfaces/Carousel.props';
+import { CarouselProps } from '../../Interfaces/Carousel.props';
 
 const Carousel: FC<CarouselProps> = ({
   slides,
@@ -64,8 +63,8 @@ const Carousel: FC<CarouselProps> = ({
         setInterval(() => {
           emblaApi.scrollNext();
         }, intervalTime);
-      };
-    };
+      }
+    }
   }, [emblaApi]);
 
   return (
@@ -94,9 +93,9 @@ const Carousel: FC<CarouselProps> = ({
                 }
                 {
                   images &&
-                  <Image
+                  <img
                     className="embla__slide__img"
-                    src={imageByIndex(index, images)}
+                    src={`${imageByIndex(index, images)}`}
                     alt="Your alt text"
                   />
                 }
