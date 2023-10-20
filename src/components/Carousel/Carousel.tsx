@@ -11,7 +11,6 @@ const Carousel: FC<CarouselProps> = ({
   options,
   haveButtons,
   haveDots,
-  styles,
   images,
   className,
   interval,
@@ -23,7 +22,7 @@ const Carousel: FC<CarouselProps> = ({
   const [nextBtnEnabled, setNextBtnEnabled] = useState(false)
   const [selectedIndex, setSelectedIndex] = useState(0)
   const [scrollSnaps, setScrollSnaps] = useState<number[]>([]);
-  const [intervalTime, setIntervalTime] = useState(interval)
+  const [intervalTime] = useState(interval)
 
   const scrollPrev = useCallback(() => {
     emblaApi && emblaApi.scrollPrev()

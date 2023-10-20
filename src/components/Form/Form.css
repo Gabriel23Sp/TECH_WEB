@@ -1,0 +1,22 @@
+.container-form ul li{
+  margin: 5px;
+}
+.container-form ul li label{
+  display: flex;
+}
+
+.container-form ul li input{
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none; 
+  background-color: transparent;
+}
+
+.text-area textarea{
+  margin: 10px 9px;
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none; 
+  background-color: transparent;
+}

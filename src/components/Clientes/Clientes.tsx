@@ -30,7 +30,9 @@ const Clientes = () => {
   return (
     <div>
       <div className='text-center text-2xl my-4 font-bold'>Clientes</div>
-      <div className='grid grid-cols-3 items-center justify-center'>
+      <div className='grid grid-cols-3 items-center justify-center
+      max-md:grid-cols-2
+      max-sm:grid-cols-1'>
       {ARRAY_CLIENTES.map((item,index)=>{return(
       <div key={index}
       className='w-[150px]

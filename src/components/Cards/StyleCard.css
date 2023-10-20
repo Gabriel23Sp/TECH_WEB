@@ -5,3 +5,13 @@
   width: 100%;
   margin: auto;
 }
+@media(max-width:800px){
+  .block-card{
+    width: 15em;
+  }
+}
+@media(max-width:640px){
+  .block-card{
+    width: 20em;
+  }
+}
