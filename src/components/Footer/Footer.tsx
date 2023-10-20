@@ -1,11 +1,12 @@
 import './Footer.css'
+import logo from '../../../public/img/brand.png'
 const Footer = () => {
   return (
     <footer className='foot-page w-full bg-[#0a141d]'>
       <div className='group-1'>
         <div className='box'>
           <figure>
-          <a href=""> <img src="" alt="" /></a>
+          <a href=""> <img src={logo} alt="" className='w-[150px]'/></a>
           </figure>
         </div>
         <div className='box'>
