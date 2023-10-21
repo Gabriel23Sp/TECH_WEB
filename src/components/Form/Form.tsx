@@ -40,7 +40,8 @@ const Form = () => {
   };
 
   return (
-    <div className='text-white block w-[400px]'>
+    <div className='text-white block w-[400px]
+    max-md:w-[200px]'>
         <form className="form-mail " onSubmit={handleSubmit}>
         <div className="text-area w-50 m-auto">
         <div className="container-form flex items-center">

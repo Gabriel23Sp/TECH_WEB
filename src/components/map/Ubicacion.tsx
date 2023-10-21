@@ -7,7 +7,7 @@ const Ubicacion: React.FC = () => {
   const handleRize=()=>{
     const width =window.innerWidth
     if (width < 700) {
-      SetMapWidth(400);
+      SetMapWidth(300);
     } else if (width < 1200) {
       SetMapWidth(600);
     } else {

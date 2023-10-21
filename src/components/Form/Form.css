@@ -20,3 +20,9 @@
   outline: none; 
   background-color: transparent;
 }
+
+@media(max-width:650px){
+  .container-form ul li input{
+    width: 170px;
+  }
+}

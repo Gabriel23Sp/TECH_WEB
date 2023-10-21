@@ -5,10 +5,10 @@ import img3 from '../../../public/img/service3.webp'
 import img4 from '../../../public/img/service4.webp'
 const Services = () => {
   return (
-    <div>
-      <h1 className='text-center my-3 text-3xl font-bold' id='servicios'>Services</h1>
+    <div className='my-[20px]'>
+      <h1 className='text-center my-4 text-5xl font-bold' id='servicios'>Services</h1>
           <div className=' w-4/5 m-auto new-cards grid grid-cols-4 gap-[5px]
-          max-md:grid-cols-2
+          max-xl:grid-cols-2
           max-sm:grid-cols-1
           max-sm:w-3/5'>
       <div><Card img={`${img1}`}/></div>

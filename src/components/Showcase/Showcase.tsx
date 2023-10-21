@@ -6,7 +6,8 @@ const Showcase = () => {
 <div className="content">
   <div className='upper-message z-10 m-3'>
   <div className='justify-end pb-[50px] mb-[20px] bg-black opacity-80 w-[500px] h-auto z-0 
-  max-md:w-[370px]
+  max-md:w-[200px]
+  max-md:m-10
 '>
   <div className='p-2'>
     <h2 className='m-2'>Big News Today</h2>

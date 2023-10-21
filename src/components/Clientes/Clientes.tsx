@@ -29,9 +29,10 @@ const ARRAY_CLIENTES=[
 const Clientes = () => {
   return (
     <div className='grid grid-cols-2 mr-[20em] items-center text-center 
-    max-md:block 
+    max-xl:block 
+    max-xl:m-auto
     max-md:mr-0' id='clientes'>
-      <div className=' text-6xl my-4 font-bold leading-[2em]'>Nos enorgullecemos <br/> Trabajando con</div>
+      <div className=' text-6xl my-4 font-bold leading-[2em] max-md:text-3xl'>Nos enorgullecemos <br/> Trabajando con</div>
       <div className='grid grid-cols-3 items-center justify-center
       max-md:text-2xl
       max-md:grid-cols-2
