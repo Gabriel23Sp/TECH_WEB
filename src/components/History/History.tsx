@@ -11,7 +11,8 @@ const History = () => {
       <img src={hitory} alt="history-tech" className='w-[600px] relative z-10
       max-md:w-full
       '/>
-      <div className='bg-white w-[600px] h-[400px] absolute mx-[55%] my-[5%] z-1
+      <div className='bg-white w-[600px] h-[400px] absolute mx-[45%] my-[5%] z-1
+      max-[1700px]:mx-[55%]
       max-xl:relative
       max-xl:m-0
       max-xl:w-[520px]

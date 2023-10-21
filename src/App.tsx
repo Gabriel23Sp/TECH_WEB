@@ -7,7 +7,6 @@ import History from './components/History/History'
 import Nav from './components/Nav/Nav'
 import Showcase from './components/Showcase/Showcase'
 import { Somos } from './components/Somos/Somos'
-import Ubicacion from './components/map/Ubicacion'
 
 
 function App() {
@@ -21,7 +20,6 @@ function App() {
   <History/> 
   <Clientes/>
   <Somos/>
-  <Ubicacion/>
   <Footer/>
     </>
   )

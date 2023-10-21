@@ -21,6 +21,7 @@ const Footer = () => {
           <a href="#"><i className="fab fa-twitter"></i></a>
           <a href="#"><i className="fab fa-linkedin"></i></a>
         </div>
+        <div className='my-5 text-xl cursor-pointer'><span><a href="mailto:ventas@industriasboltperu.com"><i className="fa fa-envelope"></i> ventas@industriasboltperu.com</a></span></div>
         </div>
       </div>
       <div className='group-2'>
