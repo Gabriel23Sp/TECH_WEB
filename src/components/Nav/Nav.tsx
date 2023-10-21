@@ -5,26 +5,26 @@ import './Nav.css'
 
 const navMenuItems =[
   {
-    tittle:'Services',
-    url:'#Services',
+    tittle:'Servicos',
+    url:'#servicios',
     cName:'link-animado'
   },
   {
     tittle:'History',
-    url:'#History',
+    url:'#historia',
     cName:'link-animado'
   },
   {
     tittle:'Ubicación',
-    url:'#Ubicacion',
+    url:'#ubicacion',
     cName:'link-animado'
   },{
-    tittle:'Mision y Visión',
-    url:'#Mision',
+    tittle:'¿Quienes Somos?',
+    url:'#somos',
     cName:'link-animado'
   },{
     tittle:'Clientes',
-    url:'#Clientes',
+    url:'#clientes',
     cName:'link-animado'
   }
 ]

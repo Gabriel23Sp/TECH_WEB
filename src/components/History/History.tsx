@@ -1,8 +1,8 @@
-import hitory from '../../../public/img/tech-hystory.jpg'
+import hitory from '../../../public/img/tech-hystory.webp'
 const History = () => {
   return (
     <div className='relative mb-20 h-full
-    max-md:mb-10'>
+    max-md:mb-10' id='historia'>
       <h1 className='text-center font-bold text-5xl my-5'>History</h1>
       <div className='flex w-3/5 mx-auto relative 
       max-md:w-full

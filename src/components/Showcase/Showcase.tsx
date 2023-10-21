@@ -1,12 +1,8 @@
-import { useState } from 'react'
 import './Showcase.css'
+
 const Showcase = () => {
-  const [show,setShow]=useState(true);
-  const handleclick=()=>{
-    setShow(!show)
-  }
   return (
-    <header className="showcase w-4/5 m-auto h-[550px] pb-[50px] mb-[40px]">
+<header className="showcase-principal w-4/5 m-auto h-[550px] pb-[50px] mb-[40px]" id='principal'>
 <div className="content">
   <div className='upper-message z-10 m-3'>
   <div className='justify-end pb-[50px] mb-[20px] bg-black opacity-80 w-[500px] h-auto z-0 

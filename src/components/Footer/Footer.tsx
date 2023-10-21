@@ -3,7 +3,7 @@ import logo from '../../../public/img/brand.png'
 import Form from '../Form/Form'
 const Footer = () => {
   return (
-    <footer className='foot-page w-full bg-[#0a141d]'>
+    <footer className='foot-page w-full bg-[#0a141d]' id='contacto'>
       <div className='group-1'>
         <div className='box'>
           <figure>
@@ -25,7 +25,7 @@ const Footer = () => {
       </div>
       <div className='group-2'>
       <small>
-        &copy; 2021 <b>SLee Dw</b> - Todos los Derechos Reservados
+        &copy; 2023 <b>SLee Dw</b> - Todos los Derechos Reservados
       </small>
       </div>
     </footer>

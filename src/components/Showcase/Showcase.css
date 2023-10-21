@@ -1,5 +1,5 @@
-.showcase{
-  background: url('../../../public/img/tech-red.jpg') no-repeat center/cover;
+.showcase-principal{
+  background: url('../../../public/img/tech-red.webp') no-repeat center/cover;
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -1,28 +1,28 @@
-import client1 from '../../../public/img/duo.png'
-import client2 from '../../../public/img/fibra.png'
-import client3 from '../../../public/img/diamante.png'
-import client4 from '../../../public/img/details_1.png'
-import client5 from '../../../public/img/details_2.png'
-import client6 from '../../../public/img/details_3.png'
+import client1 from '../../../public/img/cliente1.png'
+import client2 from '../../../public/img/cliente2.png'
+import client3 from '../../../public/img/cliente3.png'
+import client4 from '../../../public/img/cliente4.png'
+import client5 from '../../../public/img/cliente5.png'
+import client6 from '../../../public/img/cliente6.png'
 const ARRAY_CLIENTES=[
   {
     img:client1,
-    text:'Lorem ipsum dolor, sit amet'
+    text:'Lorem ipsum dolor'
   },{
     img:client2,
-    text:'Lorem ipsum dolor, sit amet'
+    text:'Lorem ipsum dolor'
   },{
     img:client3,
-    text:'Lorem ipsum dolor, sit amet'
+    text:'Lorem ipsum dolor'
   },{
     img:client4,
-    text:'Lorem ipsum dolor, sit amet'
+    text:'Lorem ipsum dolor'
   },{
     img:client5,
-    text:'Lorem ipsum dolor, sit amet'
+    text:'Lorem ipsum dolor'
   },{
     img:client6,
-    text:'Lorem ipsum dolor, sit amet'
+    text:'Lorem ipsum dolor'
   },
 ]
 
@@ -30,7 +30,7 @@ const Clientes = () => {
   return (
     <div className='grid grid-cols-2 mr-[20em] items-center text-center 
     max-md:block 
-    max-md:mr-0'>
+    max-md:mr-0' id='clientes'>
       <div className=' text-6xl my-4 font-bold leading-[2em]'>Nos enorgullecemos <br/> Trabajando con</div>
       <div className='grid grid-cols-3 items-center justify-center
       max-md:text-2xl
