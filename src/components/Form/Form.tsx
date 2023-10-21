@@ -21,17 +21,17 @@ const Form = () => {
   const handleSubmit=(e:any)=>{
     e.preventDefault();
 
-{   /* emailjs.sendForm('service_dlde0ja', 'template_h2m1dlz', e.target, 'qFmt5K5p5LJ2gQosD')
+ emailjs.sendForm('service_dlde0ja', 'template_h2m1dlz', e.target, 'qFmt5K5p5LJ2gQosD')
       .then((response) => console.log('Correo enviado:', response))
       .catch((error) => console.log('Error al enviar el correo:', error)); 
- */}
- setFormData({
-  name: '',
-  apellido: '',
-  email: '',
-  asunto: '',
-  message: ''
-});
+ 
+      setFormData({
+        name: '',
+        apellido: '',
+        email: '',
+        asunto: '',
+        message: ''
+      });
       setShow(!show);
   }
   const handleChange = (e:any) => {
