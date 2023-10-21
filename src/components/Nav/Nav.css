@@ -2,11 +2,11 @@
   display: flex;
 }
 .nav-main ul li{
-  padding: 10px;
+  padding: 20px;
 }
 .nav-main ul.nav-menu{
   flex: 1;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 .menu-btn{
   display: none;
@@ -16,7 +16,7 @@
   position: relative;
   text-decoration: none;
   color: white;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .link-animado::before,
@@ -65,7 +65,7 @@
     z-index: 10000;
   }
   .nav-main ul.nav-menu.show{
-    transform: translateX(-20px);
+    transform: translateX(-40px);
     transition: all 0.5s ease;
   }
   .nav-main ul.nav-menu-right{

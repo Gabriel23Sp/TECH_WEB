@@ -1,5 +1,6 @@
 import './Footer.css'
 import logo from '../../../public/img/brand.png'
+import Form from '../Form/Form'
 const Footer = () => {
   return (
     <footer className='foot-page w-full bg-[#0a141d]'>
@@ -10,10 +11,10 @@ const Footer = () => {
           </figure>
         </div>
         <div className='box'>
-            <h2>SOBRE NOSOTROS</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia vitae tempore vel accusantium optio ad aliquid neque voluptatum sequi quibusdam ipsum, exercitationem consectetur explicabo. Recusandae odio quam sint autem expedita!</p>
+        <h2 className='font-bold'>CONTACTANOS</h2>
+            <Form/>
         </div>
-        <div className='box'>
+        <div className='box max-md:mt-[20em]'>
         <h2>SIGUENOS</h2>
         <div className='social'>
         <a href="#"><i className="fab fa-facebook-f"></i></a>

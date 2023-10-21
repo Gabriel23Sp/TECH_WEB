@@ -28,9 +28,12 @@ const ARRAY_CLIENTES=[
 
 const Clientes = () => {
   return (
-    <div>
-      <div className='text-center text-2xl my-4 font-bold'>Clientes</div>
+    <div className='grid grid-cols-2 mr-[20em] items-center text-center 
+    max-md:block 
+    max-md:mr-0'>
+      <div className=' text-6xl my-4 font-bold leading-[2em]'>Nos enorgullecemos <br/> Trabajando con</div>
       <div className='grid grid-cols-3 items-center justify-center
+      max-md:text-2xl
       max-md:grid-cols-2
       max-sm:grid-cols-1'>
       {ARRAY_CLIENTES.map((item,index)=>{return(

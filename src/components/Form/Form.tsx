@@ -2,42 +2,50 @@ import  emailjs from "@emailjs/browser";
 import './Form.css'
 import { useState } from "react";
 
+interface FormData {
+  name: string;
+  apellido: string;
+  email: string;
+  asunto: string;
+  message: string;
+}
 const Form = () => {
   const[show,setShow]=useState(false)
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState<FormData>({
     name: '',
     apellido: '',
     email: '',
     asunto: '',
-    message:''
+    message: ''
   });
-  const handleSubmit=(e)=>{
+  const handleSubmit=(e:any)=>{
     e.preventDefault();
 
-    emailjs.sendForm('service_dlde0ja', 'template_h2m1dlz', e.target, 'qFmt5K5p5LJ2gQosD')
+{   /* emailjs.sendForm('service_dlde0ja', 'template_h2m1dlz', e.target, 'qFmt5K5p5LJ2gQosD')
       .then((response) => console.log('Correo enviado:', response))
       .catch((error) => console.log('Error al enviar el correo:', error)); 
-      setFormData({
-        name: '',
-        apellido: '',
-        email: '',
-        asunto: ''
-      });
-
+ */}
+ setFormData({
+  name: '',
+  apellido: '',
+  email: '',
+  asunto: '',
+  message: ''
+});
       setShow(!show);
   }
-  const handleChange = (e) => {
+  const handleChange = (e:any) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
 
   return (
-    <div className='text-white block w-[400px] bg-black'>
-        <form className="form-mail block" onSubmit={handleSubmit}>
-        <div className="block text-area">
+    <div className='text-white block w-[400px]'>
+        <form className="form-mail " onSubmit={handleSubmit}>
+        <div className="text-area w-50 m-auto">
         <div className="container-form flex items-center">
         <ul>
-          <li className=" block">
+          <li className="">
             <label> Nombre</label>
             <input type="text" name='name'  value={formData.name}
             onChange={handleChange} required/>
@@ -63,8 +71,11 @@ const Form = () => {
         </ul>
         
         </div>
-        <textarea name="message"  cols="40" rows="3" value={formData.message}
+          <div className=" ">
+          <label>Mensaje </label>
+           <textarea name="message"   value={formData.message}
             onChange={handleChange}></textarea>
+          </div>
         </div>
           <button className="font-bold text-2xl mt-3 mx-2
           hover:text-blue-400 transition-all ease-in" type='submit'>Enviar</button>
@@ -72,7 +83,7 @@ const Form = () => {
           
         </form>
 
-        <div className={`w-full text-center mt-1 transition-all ease-in ${show? 'opacity-100':'opacity-0'}`}>
+        <div className={`w-full text-center transition-all ease-in ${show? 'opacity-100':'opacity-0'}`}>
         <span > Tu correo se ha enviado</span>
         </div>
 

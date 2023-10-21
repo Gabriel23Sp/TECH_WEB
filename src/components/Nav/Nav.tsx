@@ -5,35 +5,26 @@ import './Nav.css'
 
 const navMenuItems =[
   {
-    tittle:'Web Development',
-    url:'#Web',
+    tittle:'Services',
+    url:'#Services',
     cName:'link-animado'
   },
   {
-    tittle:'Blochain',
-    url:'#Blochain',
+    tittle:'History',
+    url:'#History',
     cName:'link-animado'
   },
   {
-    tittle:'Artificil Inteligence',
-    url:'#Artificil',
+    tittle:'Ubicación',
+    url:'#Ubicacion',
     cName:'link-animado'
   },{
-    tittle:'Machine learning',
-    url:'#Machine',
-    cName:'link-animado'
-  },
-  {
-    tittle:'Quantum computing',
-    url:'#Quantum',
+    tittle:'Mision y Visión',
+    url:'#Mision',
     cName:'link-animado'
   },{
-    tittle:'Startup',
-    url:'#Startup',
-    cName:'link-animado'
-  },{
-    tittle:'More',
-    url:'#More',
+    tittle:'Clientes',
+    url:'#Clientes',
     cName:'link-animado'
   }
 ]
@@ -44,7 +35,7 @@ const Nav = () => {
   }
   return (
     <div>
-          <nav className="nav-main w-4/5 m-auto flex justify-between items-center h-[60px] py-[40px] px-0">
+          <nav className="nav-main w-4/5 m-auto flex justify-between items-center h-[60px] py-[40px] px-0 font-bold">
       <img src={brand} alt=" logo" className='nav-brand w-[60px]'/>
       <ul className={`nav-menu flex ${show? '':'show'}`}>
         {navMenuItems.map((item,index)=>{

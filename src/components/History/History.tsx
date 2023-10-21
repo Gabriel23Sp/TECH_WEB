@@ -3,7 +3,7 @@ const History = () => {
   return (
     <div className='relative mb-20 h-full
     max-md:mb-10'>
-      <h1 className='text-center font-bold text-2xl my-5'>History</h1>
+      <h1 className='text-center font-bold text-5xl my-5'>History</h1>
       <div className='flex w-3/5 mx-auto relative 
       max-md:w-full
       max-md:block'>
@@ -16,14 +16,14 @@ const History = () => {
       max-md:w-full
       max-md:h-full
       '>
-      <div className='text-center text-black bg-red-950 m-[100px]
+      <div className='text-center text-black  m-[100px]
       max-md:m-0
       max-md:py-12'>
-      <h2 className='m-2 font-bold
+      <h2 className='m-2 font-bold text-3xl
       max-md:m-0
       '>History</h2>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima ut reiciendis, maiores facilis exercitationem quam libero. Mollitia ipsam odio eveniet ipsa dolorum expedita blanditiis? Aperiam vero iste tenetur officiis sunt dolorem cumque. Alias quo quisquam voluptatum quam sit. Enim, repellendus. Dicta neque sapiente tempora dolorum sit amet omnis consectetur eaque!</p>
-      <a href="#" className='m-2'>Learn More <i className="fas fa-angle-double-right"></i></a>
+      
       </div>
       </div>
     </div>
