@@ -3,7 +3,7 @@ const History = () => {
   return (
     <div className='relative mb-20 h-full
     max-md:mb-10' id='historia'>
-      <h1 className='text-center font-bold text-5xl my-5'>History</h1>
+      <h1 className='text-center font-bold text-5xl my-4'>History</h1>
       <div className='flex w-3/5 mx-auto relative 
       max-md:w-full
       max-md:block 
@@ -11,7 +11,7 @@ const History = () => {
       <img src={hitory} alt="history-tech" className='w-[600px] relative z-10
       max-md:w-full
       '/>
-      <div className='bg-white w-[600px] h-[400px] absolute mx-[45%] my-[5%] z-1
+      <div className='bg-white w-[600px] h-[400px] absolute mx-[50%] my-[5%] z-1
       max-[1700px]:mx-[55%]
       max-xl:relative
       max-xl:m-0
@@ -19,7 +19,7 @@ const History = () => {
       max-md:w-full
       max-md:h-full
       '>
-      <div className='text-center text-black  m-[110px]
+      <div className='text-center text-black  m-[100px]
       max-xl:m-[10px]
       max-xl:pt-[30px]
       max-md:m-0

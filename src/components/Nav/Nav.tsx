@@ -15,10 +15,6 @@ const navMenuItems =[
     cName:'link-animado'
   },
   {
-    tittle:'Ubicación',
-    url:'#ubicacion',
-    cName:'link-animado'
-  },{
     tittle:'¿Quienes Somos?',
     url:'#somos',
     cName:'link-animado'
