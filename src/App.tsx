@@ -6,6 +6,7 @@ import Footer from './components/Footer/Footer'
 import History from './components/History/History'
 import Nav from './components/Nav/Nav'
 import Showcase from './components/Showcase/Showcase'
+import Slider from './components/Slider/Slider'
 import { Somos } from './components/Somos/Somos'
 
 function App() {
@@ -13,15 +14,14 @@ function App() {
 
   return (
     <>
-  <Nav/>
+ <Nav/>
     <hr className='w-4/5 mx-auto my-5' />
   <Showcase/>
   <History/> 
   <Services/>
   <Clientes/>
   <Somos/>
-  <Footer/>
-
+  <Footer/> 
 
 
     </>

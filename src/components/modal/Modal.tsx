@@ -55,7 +55,7 @@ const Modal:FC<ModalProps> = ({
         }}
       ></div>
       <div
-        className="relative overflow-hidden overflow-y-auto min-w-[300px] max-h-[600px] rounded-3xl flex flex-col items-center justify-between transition-all duration-500 z-[100] max-md:max-w-[390px] md:max-w-[750px]"
+        className="relative overflow-hidden min-w-[300px] max-h-[600px] rounded-3xl flex flex-col items-center justify-between transition-all duration-500 z-[100] max-md:max-w-[390px] md:max-w-[750px]"
         style={{
           height: heightBody,
           padding: paddingBody,
