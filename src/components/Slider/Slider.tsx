@@ -41,7 +41,11 @@ const Slider:FC<SliderProps> = ({
     <div className='text-center my-[50px]'>
       <h2 className='font-bold text-4xl my-4'>{tittle}</h2>
       <div className={`w-4/5 m-auto flex items-center justify-center ${reverse? ' ':'flex-row-reverse'} max-md:flex-col-reverse`}>
-      <span className='text-2xl w-[800px] text-center m-[90px] max-md:m-[50px]'>{children}</span>
+      <span className='text-2xl w-[800px] text-left m-[90px] 
+      max-md:m-[50px] 
+      max-md:w-[300px]
+      max-md:text-lg
+'>{children}</span>
       <img className={`w-[350px] h-auto opacity-0 transition-opacity duration-700 ${loaded?'opacity-100' : '' } `} onLoad={()=>setLoaded(true)} src={selectedImage} alt="img" />
     </div>
     </div>
