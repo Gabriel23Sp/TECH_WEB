@@ -8,11 +8,11 @@ import Nav from './components/Nav/Nav'
 import Showcase from './components/Showcase/Showcase'
 import Slider from './components/Slider/Slider'
 import { Somos } from './components/Somos/Somos'
-import fron1 from '../public/img/prueba_7.jpg'
-import fron2 from '../public/img/prueba_8.jpg'
-import fron3 from '../public/img/prueba_9.jpg'
-import fron4 from '../public/img/prueba_10.jpg'
-import fron5 from '../public/img/prueba_11.jpg'
+import fron1 from '../public/img/prueba_7.webp'
+import fron2 from '../public/img/prueba_8.webp'
+import fron3 from '../public/img/prueba_9.webp'
+import fron4 from '../public/img/prueba_10.webp'
+import fron5 from '../public/img/prueba_11.webp'
 
 const Nuestro_Trabajo=[
   `${fron1}`,

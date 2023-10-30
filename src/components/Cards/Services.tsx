@@ -2,10 +2,10 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import Card from './Card'
 import { EmblaOptionsType } from 'embla-carousel-react';
-import img1 from '../../../public/img/prueba_1.jpg'
-import img2 from '../../../public/img/prueba_2.jpg'
-import img3 from '../../../public/img/prueba_3.jpg'
-import img4 from '../../../public/img/prueba_4.jpg'
+import img1 from '../../../public/img/prueba_1.webp'
+import img2 from '../../../public/img/prueba_2.webp'
+import img3 from '../../../public/img/prueba_3.webp'
+import img4 from '../../../public/img/prueba_4.webp'
 import Carrousel from '../Carousel/Carousel';
 import block from '../../../public/img/casquivano.jpg'
 import { useState } from 'react';
