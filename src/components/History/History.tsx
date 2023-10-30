@@ -3,7 +3,7 @@ const History = () => {
   return (
     <div className='relative mb-20 h-full
     max-md:mb-10' id='historia'>
-      <h1 className='text-center font-bold text-5xl my-4'>History</h1>
+      <h1 className='text-center font-bold text-5xl my-4'>Diferencia Industrial Tech</h1>
       <div className='flex w-3/5 mx-auto relative 
       max-md:w-full
       max-md:block 
@@ -26,8 +26,8 @@ const History = () => {
       max-md:py-12'>
       <h2 className='m-2 font-bold text-3xl
       max-md:m-0
-      '>History</h2>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima ut reiciendis, maiores facilis exercitationem quam libero. Mollitia ipsam odio eveniet ipsa dolorum expedita blanditiis? Aperiam vero iste tenetur officiis sunt dolorem cumque. Alias quo quisquam voluptatum quam sit. Enim, repellendus. Dicta neque sapiente tempora dolorum sit amet omnis consectetur eaque!</p>
+      '>Innovación y Compromiso</h2>
+      <p>Lo que nos distingue es nuestra dedicación a la innovación constante. Estamos constantemente explorando nuevas tecnologías y técnicas para asegurarnos de que nuestros clientes obtengan moldes de última generación que cumplan con los estándares más exigentes.</p>
       </div>
       </div>
     </div>

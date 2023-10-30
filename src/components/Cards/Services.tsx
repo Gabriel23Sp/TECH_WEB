@@ -2,10 +2,10 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import Card from './Card'
 import { EmblaOptionsType } from 'embla-carousel-react';
-import img1 from '../../../public/img/service1.webp'
-import img2 from '../../../public/img/service2.webp'
-import img3 from '../../../public/img/service3.webp'
-import img4 from '../../../public/img/service4.webp'
+import img1 from '../../../public/img/prueba_1.jpg'
+import img2 from '../../../public/img/prueba_2.jpg'
+import img3 from '../../../public/img/prueba_3.jpg'
+import img4 from '../../../public/img/prueba_4.jpg'
 import Carrousel from '../Carousel/Carousel';
 import block from '../../../public/img/casquivano.jpg'
 import { useState } from 'react';
@@ -13,7 +13,7 @@ import Modal from '../modal/Modal';
 import Form from '../Form/Form';
 
 const OPTIONS_CARDS: EmblaOptionsType = {
-  loop: false,
+  loop: true,
   slidesToScroll: 1,
   startIndex: 0,
 };
@@ -29,10 +29,12 @@ const Services = () => {
   const closeModal = () => setActiveModal((_prev) => (false));
   const getChildrens =(array :any[])=>(array.map((item)=>{
     const {img,
+      text,
+      tittle,
       onClick} =item;
     return(
       <div className=''>
-        <div><Card img={`${img}`} onClick={onClick}/></div>
+        <div><Card img={`${img}`} onClick={onClick} text={text} tittle={tittle}/></div>
     </div>
     )
   }))
@@ -40,18 +42,26 @@ const Services = () => {
   const ARRAYS_CHILDRENS =[
     {
       img:`${img1}`,
+      tittle:'Fabricación de Matrices y Moldes :',
+      text:'La empresa se encarga de construir físicamente los moldes y matrices utilizando materiales y técnicas especializadas.',
       onClick:viewModal
     },
     {
       img:`${img2}`,
+      tittle:'Desarrollo de Matrices de Forja o Estampado :',
+      text:'Especializarse en la creación de matrices para procesos de forja o estampado de metales.',
       onClick:viewModal
     },
     {
       img:`${img3}`,
+      tittle:'Diseño y Desarrollo de Moldes : ',
+      text:'Esto implica la creación y diseño de moldes personalizados según las especificaciones y necesidades del cliente.',
       onClick:viewModal
     },
     {
       img:`${img4}`,
+      tittle:'Prototipado Rápido :',
+      text:'Ofrecer servicios de creación rápida de prototipos para verificar el diseño antes de la producción en masa.',
       onClick:viewModal
     }
   ]
@@ -61,7 +71,7 @@ const Services = () => {
 
   return (
     <div className='my-[20px] w-4/5 m-auto'>
-      <h1 className='text-center my-4 text-5xl font-bold' id='servicios'>Services</h1>
+      <h1 className='text-center my-4 text-5xl font-bold' id='servicios'>Servicios</h1>
       <Carrousel  
           classNameSlide="embla__slide__trhee"
           slides={ SLIDES }
