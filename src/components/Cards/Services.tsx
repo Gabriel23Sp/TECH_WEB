@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import Card from './Card'
 import { EmblaOptionsType } from 'embla-carousel-react';
 import img1 from '../../../public/img/service1.webp'
@@ -25,7 +27,7 @@ const SLIDES: number[] = Array.from(Array(SLIDE_COUNT).keys());
 const Services = () => {
   const viewModal = () => setActiveModal((_prev) => (true));
   const closeModal = () => setActiveModal((_prev) => (false));
-  const getChildrens =(array :any[])=>(array.map((item,index)=>{
+  const getChildrens =(array :any[])=>(array.map((item)=>{
     const {img,
       onClick} =item;
     return(
@@ -54,7 +56,7 @@ const Services = () => {
     }
   ]
 
-  const [childrens, setChildrens] = useState<JSX.Element[]>(getChildrens(ARRAYS_CHILDRENS));
+  const [childrens] = useState<JSX.Element[]>(getChildrens(ARRAYS_CHILDRENS));
   const [activeModal, setActiveModal] = useState<boolean>(false);
 
   return (
