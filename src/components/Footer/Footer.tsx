@@ -16,17 +16,18 @@ const Footer = () => {
         </div>
         <div className='box max-md:mt-[20em]'>
         <h2>SIGUENOS</h2>
-        <div className='social'>
+        {/* <div className='social'>
         <a href="#"><i className="fab fa-facebook-f"></i></a>
           <a href="#"><i className="fab fa-twitter"></i></a>
           <a href="#"><i className="fab fa-linkedin"></i></a>
-        </div>
-        <div className='my-5 text-xl cursor-pointer'><span><a href="mailto:ventas@industriasboltperu.com"><i className="fa fa-envelope"></i> ventas@industriasboltperu.com</a></span></div>
+        </div> */}
+        <div className='my-5 text-xl cursor-pointer'><span><a href="mailto:recepcion@industrial-tech.com"><i className="fa fa-envelope"></i> recepcion@industrial-tech.com</a></span></div>
+        <div className='my-5 text-xl cursor-pointer'><span> RUC : Nº 20611421690 </span></div>
         </div>
       </div>
       <div className='group-2'>
       <small>
-        &copy; 2023 <b>SLee Dw</b> - Todos los Derechos Reservados
+        &copy; {new Date().getFullYear()} <b>SLee Dw</b> - Todos los Derechos Reservados
       </small>
       </div>
     </footer>
